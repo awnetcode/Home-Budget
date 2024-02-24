@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Budżet domowy</title>
+    <link rel="icon" type="image/x-icon" href="https://img.icons8.com/ios/50/coins--v1.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="summary-charts.css">
+    <script src="main.js" defer></script>
+</head>
+<body onload="drawCathegories()">
+    <div class="container">
+        <header class="topbar">
+            <h1 class="page_title">Zarządzaj swoimi wydatkami</h1>
+        </header>
+        <h1 class="date">Marzec 2024</h1>
+        <main class="main">
+            <section class="cards">
+                <div class="card">
+                    <h1 class="card_title">Wydatki</h1>
+                </div>
+                <div class="card">
+                    <h1 class="card_title">Podsumowanie</h1>
+                </div>
+                <div class="card">
+                    <h1 class="card_title">Wykresy</h1>
+                </div>
+                <div class="card">
+                    <h1 class="card_title">Analiza</h1>
+                </div>
+            </section>
+            <section class="content">
+                <form action="calc.php" method="post">
+                    <ul class="expend">
+                    </ul>
+                    <input type="submit" name="food_button[]" value="&#x2714; Dodaj" class="button"></form>    
+                </form>
+            </section>
+        </main>
+        <footer class="page-footer">
+            <div class="footer-part">
+                <p class="footer-part-link">Po co korzystać z kalkulatora?</p>
+                <p class="footer-part-link">Jak korzystać z kalkulatora?</p>
+                <p class="footer-part-link">Po co zakładamy konto?</p>
+            </div>
+            <div class="footer-part">
+                <p class="footer-part-link"></p>
+                <p class="footer-part-link"></p>
+                <p class="footer-part-link"></p>
+            </div>
+            <div class="footer-part">
+                <p class="footer-part-link">O autorze</p>
+                <p class="footer-part-link">Po co powstał kalkulator?</p>
+                <p class="footer-part-link"></p>
+            </div>  
+        </footer>
+        <footer class="page-footer">
+            <p class="footer-part-link">Wszystkie prawa zastrzeżone &#169; awnetcode.cba.pl 2024</p> 
+        </footer>
+    </div> 
+</body>
+</html>

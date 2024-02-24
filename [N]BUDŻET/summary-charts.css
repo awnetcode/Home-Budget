@@ -1,0 +1,21 @@
+table{
+    margin: 5rem auto;
+    box-shadow: var(--main-shadow);
+}
+
+.table-cell{
+    padding: .5rem;
+    font-size: 1.2rem;
+    background: rgba(70,130,180,1);
+    color: white;
+}
+
+#myCanvas{
+    border: 1px solid black;
+    background: white;
+    margin: 5rem 50%;
+    transform: translateX(-50%);
+    align-self: center;
+    justify-self: center;
+    box-shadow: var(--main-shadow);
+}
